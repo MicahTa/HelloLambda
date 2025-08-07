@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HelloLambda", "HelloLambda", "{E6CFCBAB-6400-B6C0-064E-21814266462D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7672961A-CB10-7ECF-7A0D-67A71E355F94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloLambda", "HelloLambda\src\HelloLambda\HelloLambda.csproj", "{A3B33EC3-CDE7-E111-2DD0-FFF3D7F37BDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{01465FFB-6A60-7E32-A976-EE8F02976AC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloLambda.Tests", "HelloLambda\test\HelloLambda.Tests\HelloLambda.Tests.csproj", "{CE211647-4519-0395-CD79-895842AF6172}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3B33EC3-CDE7-E111-2DD0-FFF3D7F37BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B33EC3-CDE7-E111-2DD0-FFF3D7F37BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B33EC3-CDE7-E111-2DD0-FFF3D7F37BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B33EC3-CDE7-E111-2DD0-FFF3D7F37BDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE211647-4519-0395-CD79-895842AF6172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE211647-4519-0395-CD79-895842AF6172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE211647-4519-0395-CD79-895842AF6172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE211647-4519-0395-CD79-895842AF6172}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7672961A-CB10-7ECF-7A0D-67A71E355F94} = {E6CFCBAB-6400-B6C0-064E-21814266462D}
+		{A3B33EC3-CDE7-E111-2DD0-FFF3D7F37BDC} = {7672961A-CB10-7ECF-7A0D-67A71E355F94}
+		{01465FFB-6A60-7E32-A976-EE8F02976AC0} = {E6CFCBAB-6400-B6C0-064E-21814266462D}
+		{CE211647-4519-0395-CD79-895842AF6172} = {01465FFB-6A60-7E32-A976-EE8F02976AC0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B094907F-94B2-419B-A1DD-EAD2AB76E2DD}
+	EndGlobalSection
+EndGlobal
